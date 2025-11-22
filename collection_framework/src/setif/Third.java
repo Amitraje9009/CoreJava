@@ -9,7 +9,7 @@ public class Third {
 	public static void main(String[] args) {
 		
 		
-		TreeMap<K, V>
+		
 //		String str = "ABC";
 		
 		String str = new String("AC");
