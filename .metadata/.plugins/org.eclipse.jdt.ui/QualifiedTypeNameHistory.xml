@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.WrongThreadException"/>
-    <fullyQualifiedTypeName name="com.sun.tools.jdi.TargetVM"/>
     <fullyQualifiedTypeName name="equalsmethod.Tv"/>
     <fullyQualifiedTypeName name="java.util.Objects"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.lang.foreign.AddressLayout"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="T"/>
+    <fullyQualifiedTypeName name="collection_class.Addition"/>
 </qualifiedTypeNameHistroy>
