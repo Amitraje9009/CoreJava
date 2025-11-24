@@ -20,7 +20,6 @@ abstract class Now <T> implements Isee<String>
 
 
 //	public String seeme(String t) {
-//		// TODO Auto-generated method stub
 //		return "done"+t ;
 //	}
 
@@ -35,13 +34,12 @@ class rere <Integer> extends Now<Double>
 
 	@Override
 	public String seeme(String t) {
-		// TODO Auto-generated method stub
-		return null;
+				return null;
 	}
 
 	@Override
 	void run(Double t) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	
