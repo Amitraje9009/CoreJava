@@ -23,7 +23,7 @@ public class Palindrome {
 	{
 		chars[i]=str.charAt(i);
 	}		
-	boolean flag=true;
+//	boolean flag=true;
 	
 		
 		
