@@ -31,7 +31,6 @@
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="assignment2.Second_1"/>
     <fullyQualifiedTypeName name="assignment2.InvalidIDException"/>
-    <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.xs.util.ShortListImpl"/>
     <fullyQualifiedTypeName name="java.util.function.Function"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
 </qualifiedTypeNameHistroy>
