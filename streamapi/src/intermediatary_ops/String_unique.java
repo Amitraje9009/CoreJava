@@ -8,6 +8,7 @@ public class String_unique {
 
 	public static void main(String[] args) {
 		
+		
 		String str ="ababcdeffgggghi";
 		
 		char[] chars=str.toCharArray();
