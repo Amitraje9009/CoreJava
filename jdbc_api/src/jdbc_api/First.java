@@ -29,12 +29,22 @@ public class First {
 				Statement stmt = con.createStatement();) {
 			System.out.println("connection opened!");
 
-			int n = stmt.executeUpdate("insert into Student values()");
+//			int n = stmt.executeUpdate("insert into Student values()");
+//
+//			System.out.println("no of rows affected..."+n);
+			
+//			***********************************************
+			
+			  String sql = "INSERT INTO Student VALUES (" + id + ", '" + name + "')";
 
-			System.out.println("no of rows affected..."+n);
-			Integer i1=128;
-			Integer i2=128;
-			System.out.println(i1==i2);
+              // 6. Execute
+              int rows = stmt.executeUpdate(sql);
+              System.out.println("No of rows affected: " + rows);
+			
+//			************************************************
+//			Integer i1=128;
+//			Integer i2=128;
+//			System.out.println(i1==i2);
 
 		} catch (Throwable e) {
 			e.printStackTrace();
