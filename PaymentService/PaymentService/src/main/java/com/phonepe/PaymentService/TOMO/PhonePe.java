@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.phonepe.PaymentService.TOMO;
 
 import org.springframework.context.annotation.Lazy;
@@ -19,4 +20,27 @@ public class PhonePe implements Payment_Interface {
 	{
 		System.out.println("Phone pe Object created!!!!");
 	}
+=======
+package com.phonepe.PaymentService.TOMO;
+
+import org.springframework.context.annotation.Lazy;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component("PhonePe")
+@Lazy
+public class PhonePe implements Payment_Interface {
+
+	@Override
+	public void doPayment() {
+		
+		System.out.println("Payment done using the Phone Pe!");
+	}
+
+	
+	public PhonePe()
+	{
+		System.out.println("Phone pe Object created!!!!");
+	}
+>>>>>>> 63c9a72c4665ebb4fb2df84f518c73245e2af3d0
 }
